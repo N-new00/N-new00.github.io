@@ -1,57 +1,57 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 body {
-  font-family: Roboto, sans-serif;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
-.container {
-  padding: 0 40px;
-  margin-left: 80px;
+.main-header {
+    text-align: center;
+    margin-top: 50px;
+    font-size: 24px;
 }
 
-  /* Свойства ссылок */
-a {
-  display: block;
-  text-decoration:none;
-  margin-bottom: 1.2em;
-  position: relative;
+.about-me .container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
 }
 
-  /* Что делать при наведении на ссылку */
-a:hover {
-  color:#FFD700;
+.profile-image {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 100%;
+    margin-right: 30px;
 }
 
-  /* Этим свойством добавляем подчеркивание через создание псевдокласса */
-a::after {
-  content: '';
-  position: absolute;
-  left: 0;
-  right: 0;
-  transform: translateY(1.5em);
-  border-bottom: 1px solid #dadada;
-  width: 300px;
+.description {
+    flex-grow: 1;
 }
 
-h1 {
-  font-size: 2em;
+.description a {
+    color: blue;
+    text-decoration: none;
 }
 
-h2 {
-  font-size: 1.5em;
-  margin: 1.25em 0;
+.services ul {
+    list-style-type: square;
+    padding-left: 40px;
 }
 
-  /* Свойства фотографии*/
-.photo {
-  border-radius: 100px;
-  /* Радиус скругления */
-  border: 3px solid transparent;
-  /* Параметры рамки */
-  box-shadow: 0 4px 15px 0px rgba(0, 0, 0, 0.52);
-  object-fit: cover;
+footer {
+    background-color: lightgray;
+    padding: 10px;
 }
 
-  /* Эффект наведения на картинку */
-.photo:hover {
-  border: 3px solid #FFD700;
+footer address {
+    line-height: 1.6;
 }
