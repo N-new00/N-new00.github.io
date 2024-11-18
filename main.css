@@ -10,7 +10,7 @@ body {
     background-color: #f4f4f4;
     color: #333;
     /* Добавляем фоновое изображение */
-    background-image: url('background.jpeg');
+    background-image: url("background.jpeg");
     background-repeat: no-repeat; /* Изображение не повторяется */
     background-position: center top; /* Центрирование изображения */
     background-size: cover; /* Растягиваем изображение на весь экран */
@@ -34,8 +34,8 @@ body {
 }
 
 .profile-image {
-    width: 200px;
-    height: 200px;
+    width: 100px;
+    height: 100px;
     object-fit: cover;
     border-radius: 100%;
     margin-right: 30px;
