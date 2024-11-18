@@ -7,7 +7,7 @@
 body {
 
     /* Добавляем фоновое изображение */
-    background-image: url('background.jpeg');
+    background-image: url('background.jpg');
     background-repeat: no-repeat; /* Изображение не повторяется */
     background-position: center top; /* Центрирование изображения */
     background-size: cover; /* Растягиваем изображение на весь экран */
