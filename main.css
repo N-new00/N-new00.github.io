@@ -5,21 +5,20 @@
 }
 
 body {
-
-    /* Добавляем фоновое изображение */
-    background-image: url('N-new00/N-new00.github.io/deferred-metadata/main/background.jpg');
-    background-repeat: no-repeat; /* Изображение не повторяется */
-    background-attachment: fixed;
-    background-position: center top; /* Центрирование изображения */
-    background-size: cover; /* Растягиваем изображение на весь экран */
-}
-
+    font-family: Arial, sans-serif;
+    color: #333;
+    
+    background-image: url('background.jpg');
+    background-repeat: no-repeat;
+    background-position: center top;
+    background-size: cover;
 }
 
 .main-header {
     text-align: center;
-    margin-top: 50px;
-    font-size: 24px;
+    margin-top: 150px; 
+    font-size: 36px; 
+    color: white; 
 }
 
 .about-me .container {
@@ -29,13 +28,16 @@ body {
     max-width: 800px;
     margin: auto;
     padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); 
+    border-radius: 10px; 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1); 
 }
 
 .profile-image {
     width: 200px;
     height: 200px;
     object-fit: cover;
-    border-radius: 100%;
+    border-radius: 100%; 
     margin-right: 30px;
 }
 
@@ -43,9 +45,31 @@ body {
     flex-grow: 1;
 }
 
+.description h2 {
+    margin-bottom: 10px;
+}
+
+.description p {
+    margin-bottom: 20px;
+}
+
 .description a {
-    color: blue;
+    color: #007bff; 
     text-decoration: none;
+}
+
+.services {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+.services h2 {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
 .services ul {
@@ -53,9 +77,14 @@ body {
     padding-left: 40px;
 }
 
-footer {
-    background-color: lightgray;
+footer#contact {
+    position: fixed; 
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(255, 255, 255, 0.9);
     padding: 10px;
+    text-align: center;
 }
 
 footer address {
