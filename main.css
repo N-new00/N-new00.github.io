@@ -5,15 +5,16 @@
 }
 
 body {
+
+    /* Добавляем фоновое изображение */
     background-image: url('N-new00/N-new00.github.io/deferred-metadata/main/background.jpg');
-    background-repeat: no-repeat;
+    background-repeat: no-repeat; /* Изображение не повторяется */
     background-attachment: fixed;
-    background-position: center top;
-    background-size: cover;
-    height: 400px;
-    width: 400px;
+    background-position: center top; /* Центрирование изображения */
+    background-size: cover; /* Растягиваем изображение на весь экран */
 }
 
+}
 
 .main-header {
     text-align: center;
@@ -28,7 +29,6 @@ body {
     max-width: 800px;
     margin: auto;
     padding: 20px;
-    color: blue;
 }
 
 .profile-image {
